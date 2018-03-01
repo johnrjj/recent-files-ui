@@ -1,0 +1,24 @@
+{
+  "name": "recent-files-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "flow-bin": "^0.66.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-feather": "^1.0.8",
+    "react-scripts": "1.1.1",
+    "styled-components": "^3.1.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}
