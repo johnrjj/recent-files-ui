@@ -3,8 +3,8 @@ import React from 'react';
 
 import { MessageCircle, Play } from 'react-feather';
 import { theme } from '../colors';
-import soundwave1 from '../waveform1.svg';
-import soundwave2 from '../waveform2.svg';
+import soundwave1 from '../assets/waveform1.svg';
+import soundwave2 from '../assets/waveform2.svg';
 import { GridElement } from './BaseGridElement';
 
 //  audio
