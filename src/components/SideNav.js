@@ -14,6 +14,7 @@ const MenuContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  overflow-y: auto;
   background-image: linear-gradient(
     -180deg,
     ${colors.lightGray} 25%,
