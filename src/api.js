@@ -52,7 +52,6 @@ const filesByDate = [
         thumbnailUrl:
           'https://images.unsplash.com/photo-1504221507732-5246c045949b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3db8b05daf1b70f000d052709198134c&auto=format&fit=crop&w=3300&q=80',
         thumbnailPrimaryColor: '#976F77',
-
         author: 'Jakub',
         sizeInMb: 241,
         commentCount: 8,
