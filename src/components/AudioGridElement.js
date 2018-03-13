@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 import React from 'react';
-
 import { MessageCircle, Play } from 'react-feather';
+import { GridElement } from './BaseGridElement';
 import { theme } from '../colors';
 import soundwave1 from '../assets/waveform1.svg';
 import soundwave2 from '../assets/waveform2.svg';
-import { GridElement } from './BaseGridElement';
 
 //  audio
 const AudioGridElement = props => (
@@ -18,7 +17,6 @@ const AudioGridElement = props => (
         />
       </AudioGridTopRow>
       <AudioLengthDisplay>01:14</AudioLengthDisplay>
-
       <AudioGridBottomRow>
         <AudioGridBottomLeft>
           <AudioTitle>{props.title}</AudioTitle>
@@ -37,9 +35,6 @@ const AudioGridElement = props => (
 
 const AudioWaveform = styled.img`
   object-fit: contain;
-  /* max-width: 100%;
-  height: 2rem;
-  min-width: 100%; */
   height: 2rem;
 `;
 
@@ -52,7 +47,6 @@ const PlayIconContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-width: 3rem;
   min-height: 3rem;
   background: #ffffff;
